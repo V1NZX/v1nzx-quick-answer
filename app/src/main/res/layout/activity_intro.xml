@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3C7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V1NZX QUICK ANSWER"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:background="#F9A8D4"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERHATIAN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:background="#FCA5A5"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halo, selamat datang di V1NZX QUICK ANSWER gunakanlah secara bijak, APK ini dikembangkan oleh Developer untuk membuat generasi penerus agar mereka dapat tertarik ke dunia IT COMPUTER, akan tetapi APK ini dirancang untuk have fun/bermain main dan menjawab quest/pertanyaan dari teman, dan APK ini bukan untuk berbuat curang dalam ujian/ulangan! Ingat itu melanggar! Akun kamu bisa di beri peringatan sampai 3 kali, jika terlewat 3 kali, akun kamu akan di blacklist dari server!"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:lineSpacingExtra="4dp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"/>
+
+        <CheckBox
+            android:id="@+id/cbAgree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saya sudah baca dan setuju"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAgree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULAI"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:background="#86EFAC"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2025 V1NZX TOOLS"
+            android:textSize="10sp"
+            android:textColor="#666"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
