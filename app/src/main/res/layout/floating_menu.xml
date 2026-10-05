@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFF3C7"
+    android:padding="14dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V1NZX QUICK ANSWER"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:background="#F9A8D4"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Status: ready"
+        android:textSize="11sp"
+        android:textColor="#000"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pertanyaan:"
+        android:textStyle="bold"
+        android:textSize="11sp"
+        android:textColor="#000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="11sp"
+            android:textColor="#000"
+            android:text="(belum ada)"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="SCAN"
+            android:background="#67E8F9"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="GOOGLE"
+            android:background="#86EFAC"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="11sp"/>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="CLOSE"
+            android:background="#FCA5A5"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="AUTO ANSWER"
+        android:background="#FDBA74"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="11sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:background="#1A1A1A">
+        <TextView
+            android:id="@+id/tvAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="11sp"
+            android:textColor="#86EFAC"
+            android:text="Jawaban:&#10;(belum ada)"
+            android:fontFamily="monospace"/>
+    </ScrollView>
+</LinearLayout>
